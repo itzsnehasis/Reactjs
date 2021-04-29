@@ -1,6 +1,6 @@
 # Hide and Unhide Text With a Button CLick and also Change The Button Label as Well As the Condition 
 * HideUnhide.js Code will be like below 
-```
+```js
 import { useState } from "react"
 
 function HideUnhide(){
