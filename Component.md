@@ -11,7 +11,7 @@ function App() {
 }
 
 export default App;
-```js
+```
 3. If you wanna use this component in any other place in your project
    * First Import it by `import App from './App'`
    * Just Use it With `<App/>`
