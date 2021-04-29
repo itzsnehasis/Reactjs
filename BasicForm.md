@@ -2,7 +2,7 @@
 ![](https://github.com/itzsnehasis/Reactjs/blob/main/Gallery/CCxO5DVEQI.gif)
 
 * Setting up the BasicForm Component 
-```
+```js
 //in BasicForm.js
 
 import { useState } from "react"
