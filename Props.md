@@ -3,7 +3,7 @@ Props is a special keyword in React, which stands for properties and is being us
 
 # Example of using Props 
 1. Ok so let App.js is a Component
-```
+```js
 import Student from './Student'
 
 function App() {
@@ -20,7 +20,7 @@ export default App;
 * Now we are calling and sending data to student component at the same time by `<Student name={snehasis} email={snehasis@test.com}/>`
 * we are calling Student so we have to imported the Student by `import Student from './Student'`
 2. Now How We can Access those data in student component and print them 
-```
+```js
 function Student(props){
     return(
         <center>
