@@ -27,3 +27,28 @@ export default Aclasscmp
 * Here We Can See Constructor is calling before rendering 
 ![](https://github.com/itzsnehasis/Reactjs/blob/main/Gallery/H1MMi03Fd9.gif)
 
+## We can Apply this to define state before rednering HTML Page
+
+```js
+import React from 'react'
+class Aclasscmp extends React.Component{
+    constructor(){
+        super()
+        this.state={
+            data:"component"
+        }
+        // console.log("I am Constructor")
+    }
+    render(){
+        // console.log("I am From Render")
+        return (
+            <center>
+                <div>Hello I am Class {this.state.data}</div>   
+            </center>
+        )
+    }
+}
+
+export default Aclasscmp
+```
+
