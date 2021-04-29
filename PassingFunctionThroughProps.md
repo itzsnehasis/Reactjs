@@ -4,7 +4,7 @@
 
 
 1. Setting the component which will send the function 
-```
+```js
 //in Sender.js
 
 import Reciver from './Reciver'
@@ -22,7 +22,7 @@ function Sender() {
 export default Sender
 ```
 2. Setting up the component which will use the function of sender component
-```
+```js
 //in Reciver.js
 
 function Reciver(props) {
