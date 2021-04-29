@@ -2,7 +2,7 @@
 ![](https://github.com/itzsnehasis/Reactjs/blob/main/Gallery/sMC4l2utHu.gif)
 
 1. lets make a component named Input.js which will contain a input box for us 
-```
+```js
 function Input() {
     const [data,setData]=useState();
     return(
@@ -16,7 +16,7 @@ function Input() {
 export default Input;
 ```
 2. Now if we import and use this Component in Index.js we will see that input box in our home page 
-```
+```js
 import ReactDOM from 'react-dom';
 import './index.css';
 import Input from './Input';
@@ -33,11 +33,11 @@ reportWebVitals();
 ```
 3. Lets go back to Input.js and lets define the event by editing line 9 to `<input type="text" onChange={getData}/>`
 4. The Complete Index.js Will be like This 
-```
+```js
 import { useState } from "react";
 
 
-function Input() {
+/*function Input() {
     const [data,setData]=useState();    
     function getData(val) {
         setData(val.target.value);        
@@ -49,9 +49,8 @@ function Input() {
             <input type="text" onChange={getData}/>
         </center>
     )
-}
-
-Or //You can Wirte the Input Component in Both Ways 
+}*/
+ 
 
 function Input() {
     const [data,setData]=useState();
