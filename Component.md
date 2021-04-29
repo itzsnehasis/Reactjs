@@ -20,7 +20,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-     <App />  /*using the component like a html tag*/
+     <App />  {/*using the component like a html tag*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
