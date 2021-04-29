@@ -24,3 +24,5 @@ class Aclasscmp extends React.Component{
 export default Aclasscmp
 ```
 * `super()` is for calling parent constructor `Component`
+* Here We Can See Constructor is calling before rendering 
+
