@@ -1,6 +1,6 @@
 # Making a button to update data by click 
 1.The code in Button.js
-```
+```js
 import react, { useState } from 'react'
 function Button(){
     // declearing a variable named user and initailizig "swarna" at first sate 
