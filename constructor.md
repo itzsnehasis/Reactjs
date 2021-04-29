@@ -27,7 +27,7 @@ export default Aclasscmp
 * Here We Can See Constructor is calling before rendering 
 ![](https://github.com/itzsnehasis/Reactjs/blob/main/Gallery/H1MMi03Fd9.gif)
 
-## We can Apply this to define state before rednering HTML Page
+## We can Apply this to define state before rendnering HTML Page
 
 ```js
 import React from 'react'
