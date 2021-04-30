@@ -11,3 +11,4 @@
 7. [Making text hidden and unhidden with a single button toggle](https://github.com/itzsnehasis/Reactjs/blob/main/hideunhidetextwithbuttonclick.md)
 8. [Making a Basic Form](https://github.com/itzsnehasis/Reactjs/blob/main/BasicForm.md)
 9. [Constructor and Why We Need Constructor](https://github.com/itzsnehasis/Reactjs/blob/main/constructor.md)
+10. [Ternary Operator](https://github.com/itzsnehasis/Reactjs/blob/main/TernaryOperator.md)
